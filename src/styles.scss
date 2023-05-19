@@ -1,0 +1,102 @@
+.App {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  max-width: 320px;
+  max-height: 800px;
+  width:960px; 
+  margin:0 auto; 
+  text-align:center; 
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  padding:40px;
+  }
+  img{
+    width: 258px;
+    height: 258px;
+  }
+a{
+  align-self:flex-start;
+  margin-top: 32px;
+  font-size: 16px;
+}
+p{
+  font-size: 16px;
+   margin-bottom: 8px;
+   margin-top: 8px;
+   text-align:left; 
+   align-self:flex-start;
+  }
+h3{
+  align-self:flex-start;
+  margin-top: 16px;
+  font-size: 24px;
+
+  }
+
+.price{
+  align-self: flex-start;
+  margin-top: 24px;
+  font-size: 32px;
+  }
+
+.circle{
+  align-self: flex-start;
+  .color {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width:  37px;
+    height: 37px;
+    margin:5px;
+    padding: 3px;
+    border: 4px solid white;  
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);    
+    &:hover{
+      transition: 400ms all;
+      border: 4px solid black;
+      }
+      
+      &.red{background-color: #EE4444;}
+      &.green{background-color:#3C81F6;}
+      &.tomato{background-color:#000000;
+} 
+}
+}
+
+button{
+  min-width: 320px;
+  min-height: 55px;
+  border-radius: 8px; 
+  font-size: 24px;
+  &.button-1{
+    border:#FBBF23;
+    background-color :#FBBF23;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    &:hover{
+      transition: 200ms all;
+      background: black;
+      color:#FBBF23
+    }
+    &:active{
+      background: initial;
+      color:initial
+    }
+    }
+  &.button-2{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #61A5FA;
+    &:hover{
+      transition: 200ms all;
+      background: #3C81F6;
+      color:white
+    }
+    &:active{
+      background: initial;
+      color:initial
+    }
+}
+}

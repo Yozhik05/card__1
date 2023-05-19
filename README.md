@@ -1,2 +1,2 @@
-# card__1
+# card
 Created with CodeSandbox
